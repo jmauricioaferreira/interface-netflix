@@ -1,0 +1,25 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+    }
+
+    .botoes .assistir,
+    .botoes .info {
+        margin-top: 20px;
+        width: 80%
+    }
+
+    header .container nav {
+        margin-left: 20px;
+
+    }
+
+  
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao {
+        width: 50%
+    }
+
+}
