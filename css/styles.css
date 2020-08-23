@@ -18,7 +18,6 @@ body {
 header .container {
     display: flex;
     align-items: center;
-    margin-left: 40px;
 }
 
 header nav {
@@ -49,7 +48,7 @@ header nav a:hover {
 
 .filme-principal {
     font-size: 14px;
-    background: linear-gradient(to left, transparent 50%, rgb(0, 0, 0) 80%), url('../img/capa-house.jpg');
+    background: linear-gradient(to left, transparent 10%, rgb(0, 0, 0) 90%), url('../img/capa-house.jpg');
     color: #b6b6b6 ;
     font-weight: 400;
     height: 400px;
@@ -63,22 +62,67 @@ header nav a:hover {
 
 .container {
     margin-left: 40px;
+}
+
+.filme-principal .container {
     width: 70%;
 }
 
 .filme-principal .descricao {
     margin-bottom: 40px;
+    margin-top: 10px;
 
 }
 
-.titulo {
+.filme-principal .titulo {
     font-size: 40px;
 }
 
-.botao {
+.botoes .assistir,
+.botoes .info {
     background-color: rgba(0, 0, 0, .50);
     border: none;
     color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
 
-    padding: 30px;
+    margin-right: 15px;
+    border-radius: 3px;
+
+
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.botoes img {
+    height: 14px;
+    width: 14px;
+    margin-right: 8px;
+    align-items: center;
+   
+}
+
+.botoes .assistir {
+    background-color: rgb(211, 211, 211);
+    color: #141414;
+    padding: 12px 26px;
+}
+
+.botoes .assistir:hover {
+    background-color: #AAA;
+}
+.botoes .info {
+    background-color: rgba(185, 185, 185, 0.6);
+    color: white;
+   
+    padding: 12px 32px;
+}
+
+.botoes .info:hover {
+    background-color: rgba(170, 170, 170, 0.34);
+}
+
+.botao:hover {
+
 }
